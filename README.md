@@ -1,13 +1,9 @@
 # AIMachDec
 
-> Decompile AARCH64/ARM64 Apple binaries in IDA with the help of LLMs.
-
-<img src="AIMachDec-logo.png" alt="AIMachDec logo" width="33%">
-
 **AIMachDec** is an IDA plugin for Apple AARCH64/ARM64 binaries that utilizes LLMs to translate assembly functions into readable pseudo-code in C, Objective-C, or Swift. It:
 
-* Uses LLMs to generate pseudo-code from ARM64 functions.
 * Detects language context (C, Objective-C, Swift) or allows manual selection.
+* Uses the selected LLM to generate pseudo-code from ARM64 functions.
 * Presents output in a clean, interactive viewer window ("AI Pseudocode-A/B/..."), similar to IDA's native decompiler.
 
 This plugin is specifically designed for analyzing Apple Mach-O binaries, including iOS apps, kernelcaches, and dyld_shared_cache libraries.
