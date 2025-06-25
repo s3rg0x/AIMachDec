@@ -2,7 +2,7 @@
 
 > Decompile AARCH64/ARM64 Apple binaries in IDA with the help of LLMs.
 
-![](AIMachDec-logo.png)
+<img src="AIMachDec-logo.png" alt="AIMachDec logo" width="33%">
 
 **AIMachDec** is an IDA plugin for Apple AARCH64/ARM64 binaries that utilizes LLMs to translate assembly functions into readable pseudo-code in C, Objective-C, or Swift. It:
 
