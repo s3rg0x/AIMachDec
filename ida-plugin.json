@@ -8,5 +8,10 @@
     "idaVersions": ">=8.4",
     "description": "AIMachDec is an IDA plugin for Apple AARCH64/ARM64 binaries that utilizes LLMs to translate assembly functions into readable pseudo-code in C, Objective-C, or Swift.",
     "version": "1.0.0"
-  }
+    "urls": {
+         "repository": "https://github.com/s3rg0x/AIMachDec"
+  },
+  "authors": [{
+    "name": "s3rg0x",
+  }]
 }
