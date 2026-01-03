@@ -3,15 +3,38 @@
   "plugin": {
     "name": "AIMachDec",
     "entryPoint": "AIMachDec.py",
-    "categories": ["decompilation"],
+    "categories": [
+      "decompilation"
+    ],
     "logoPath": "AIMachDec-logo.png",
     "idaVersions": ">=8.4",
     "description": "AIMachDec is an IDA plugin for Apple AARCH64/ARM64 binaries that utilizes LLMs to translate assembly functions into readable pseudo-code in C, Objective-C, or Swift.",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "keywords": [
+      "ai",
+      "mach-o",
+      "apple",
+      "aarch64",
+      "arm64",
+      "llm",
+      "assembly",
+      "pseudo-code",
+      "c",
+      "objective-c",
+      "swift",
+      "decompilation"
+    ],
+    "pythonDependencies": [
+      "requests"
+    ],
     "urls": {
-         "repository": "https://github.com/s3rg0x/AIMachDec"
+      "repository": "https://github.com/s3rg0x/AIMachDec"
+    }
   },
-  "authors": [{
-    "name": "s3rg0x",
-  }]
+  "authors": [
+    {
+      "name": "s3rg0x",
+      "email": "na@na.com"
+    }
+  ]
 }
